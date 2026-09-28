@@ -27,7 +27,7 @@ st.sidebar.header("Structure Geometry")
 num_stories = st.sidebar.slider("Number of Stories", min_value=1, max_value=40, value=10)
 story_height = st.sidebar.number_input("Typical Story Height (m)", min_value=2.5, max_value=6.0, value=3.0)
 bldg_width = st.sidebar.number_input("Building Width (B in m)", min_value=5.0, max_value=100.0, value=20.0)
-bldg_depth = st.sidebar.number_input("Building Depth (L in m)", min_value=5.0, max_value=100.0, value=30.0)
+bldg_depth = st.sidebar.number_input("Building Length (L in m)", min_value=5.0, max_value=100.0, value=30.0)
 
 # Main Calculation Logic
 if st.button("Generate Wind Load Profile", type="primary"):
