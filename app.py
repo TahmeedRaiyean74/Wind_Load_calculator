@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 st.title("⚡ Automated Wind Load Calculator & Generator")
-st.markdown("**BNBC 2020 / ASCE 7 Compliant** — Compute design wind pressures, gust effect factors, and story forces programmatically.")
+st.markdown("**BNBC 2020 / ASCE 7 Compliant** — Compute design wind pressures, gust effect factors, and story forces programmatically. Developed by 'Tahmeed Ur Rawfun'")
 
 # Sidebar Inputs for Building Parameters
 st.sidebar.header("Building & Site Parameters")
